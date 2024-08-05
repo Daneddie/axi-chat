@@ -1,0 +1,23 @@
+.message-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  max-height: 400px; /* Adjust height as needed */
+  overflow-y: auto;
+}
+
+.message {
+  margin: 5px 0;
+}
+
+.text-message {
+  background-color: #e1ffc7; /* Light green background */
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 70%; /* Limit text message width */
+}
+
+.image-message {
+  max-width: 100%; /* Responsive image size */
+  border-radius: 5px;
+}
